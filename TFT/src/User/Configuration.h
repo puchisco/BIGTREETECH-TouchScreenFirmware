@@ -48,7 +48,7 @@
  *          SPANISH,    FRENCH,   PORTUGUESE,  ITALIAN,    POLISH,    SLOVAK,        DUTCH,
  *          HUNGARIAN,  TURKISH,  GREEK,       SLOVENIAN,  CATALAN,   TRAD_CHINESE,  UKRAINIAN
  */
-#define DEFAULT_LANGUAGE SPANISH  // Default: ENGLISH
+#define DEFAULT_LANGUAGE ENGLISH  // Default: ENGLISH
 
 /**
  * Default Touch Mode Color Options
@@ -93,7 +93,7 @@
  *          12: DARKBLUE,  13: DARKGREEN,  14: GRAY,    15: DARKGRAY
  */
 #define MARLIN_BKCOLOR 1  // Default: 1
-#define MARLIN_FNCOLOR 0  // Default: 0
+#define MARLIN_FNCOLOR 3  // Default: 0
 
 // Text displayed at the top of the TFT in Marlin Mode
 #define MARLIN_BANNER_TEXT "Marlin Mode"  // Default: "Marlin Mode"
@@ -117,7 +117,7 @@
  *
  * Options: [0: Disabled, 1: Enabled]
  */
-#define SERIAL_ALWAYS_ON 0  // Default: 0
+#define SERIAL_ALWAYS_ON 1  // Default: 0
 
 /**
  * LCD/Touch Encoder
@@ -365,7 +365,7 @@
  *          3: 30 Seconds,   4: 60 Seconds,     5: 120 Seconds,
  *          6: 300 Seconds,  7: CUSTOM Seconds
  */
-#define DEFAULT_LCD_IDLE_TIMER  0  // Default: 0
+#define DEFAULT_LCD_IDLE_TIMER  3  // Default: 0
 #define LCD_DIM_CUSTOM_SECONDS (10 * 60)  // Custom value in seconds. This will be used if DEFAULT_LCD_IDLE_TIMER
                                           // is set to 7 (CUSTOM Seconds).
 
