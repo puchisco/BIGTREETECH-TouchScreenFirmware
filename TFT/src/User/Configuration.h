@@ -48,7 +48,7 @@
  *          SPANISH,    FRENCH,   PORTUGUESE,  ITALIAN,    POLISH,    SLOVAK,        DUTCH,
  *          HUNGARIAN,  TURKISH,  GREEK,       SLOVENIAN,  CATALAN,   TRAD_CHINESE,  UKRAINIAN
  */
-#define DEFAULT_LANGUAGE ENGLISH  // Default: ENGLISH
+#define DEFAULT_LANGUAGE SPANISH  // Default: ENGLISH
 
 /**
  * Default Touch Mode Color Options
